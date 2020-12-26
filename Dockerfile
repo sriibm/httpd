@@ -1,2 +1,2 @@
-FROM ppc64le/httpd:2.4
+FROM quay.io/sridhars/httpd
 COPY ./public-html/ /usr/local/apache2/htdocs/
